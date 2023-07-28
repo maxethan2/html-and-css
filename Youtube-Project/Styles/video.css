@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.video-preview{
+.video-preview {
 
 }
 
@@ -33,6 +33,10 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+}
+
+.thumbnail {
+  border-radius: 10px;
 }
 
 .video-author,
