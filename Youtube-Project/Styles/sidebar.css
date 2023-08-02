@@ -6,3 +6,31 @@
   background-color: rgb(24, 23, 23);
   width: 80px;
 }
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(70, 69, 69);
+  cursor: pointer;
+}
+
+.sidebar-link:active {
+  background-color: rgb(100, 100, 100);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+  color: rgb(204, 204, 204);
+}

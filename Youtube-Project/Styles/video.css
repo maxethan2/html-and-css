@@ -34,6 +34,7 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .thumbnail {
@@ -60,4 +61,28 @@
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 40px;
   column-gap: 16px;
+}
+
+@media (max-width: 900px){
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1500px){
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  padding: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  background-color: black;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
